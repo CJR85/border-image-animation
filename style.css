@@ -17,7 +17,9 @@ body {
 .frame {
   width: 100%;
   height: 100%;
-  border: 30px solid #000;
+  border: 30px solid;
+  border-image: url(https://images.pexels.com/photos/3785245/pexels-photo-3785245.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260)
+    25 25;
   position: absolute;
   z-index: 1;
 }
