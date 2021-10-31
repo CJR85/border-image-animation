@@ -43,3 +43,15 @@ body {
     opacity: 0;
   }
 }
+
+.slide {
+  position: absolute;
+  left: 70px;
+  bottom: -150px;
+  opacity: 0;
+}
+
+.slide img {
+  width: 380px;
+  z-index: -1;
+}
