@@ -1,0 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: #efefef;
+}
+
+.main {
+  width: 350px;
+  height: 500px;
+  position: relative;
+  margin: 50px auto;
+}
