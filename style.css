@@ -22,4 +22,24 @@ body {
     25 25;
   position: absolute;
   z-index: 1;
+  animation: frame 5s linear infinite;
+}
+
+@keyframes frame {
+  0% {
+    transform: scale(0.9);
+    opacity: 0;
+  }
+  20% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  80% {
+    transform: scale(1);
+    opacity: 1;
+  }
+  100% {
+    transform: translateY(100px);
+    opacity: 0;
+  }
 }
